@@ -6,7 +6,7 @@ using WebAPIForSchool.Models;
 
 namespace WebAPIForSchool.Data
 {
-    interface IStudent
+    public interface IStudent
     {
         public IEnumerable<Student> GetStudents();
         public Student GetStudentById(int id);

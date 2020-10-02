@@ -9,21 +9,34 @@ using WebAPIForSchool.Models;
 
 namespace WebAPIForSchool.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]/{id?}")]
     [ApiController]
     public class StudentAPIController : ControllerBase
     {
+        private readonly IStudent _repository;
 
-        private readonly MockStudentRepo _repo = new MockStudentRepo();
+        public StudentAPIController(IStudent repository)
+        {
+            _repository = repository;
+        }
+
+        //private readonly MockStudentRepo _repo = new MockStudentRepo();
 
         [HttpGet]
         public ActionResult<IEnumerable<Student>> GetStudents()
         {
-            var StudentItem = _repo.GetStudents();
+            var StudentItem = _repository.GetStudents();
             return Ok(StudentItem);
+        }
+       
+        [HttpGet]
+        public ActionResult<IEnumerable<Student>> GetStudentById(int id)
+        {
+            var StudentItem = _repository.GetStudentById(id);
+            return Ok("your ID : " + id);
         }
 
 
-       
+
     }
 }

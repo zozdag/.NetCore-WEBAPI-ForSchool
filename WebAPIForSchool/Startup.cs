@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WebAPIForSchool.Data;
 
 namespace WebAPIForSchool
 {
@@ -16,6 +17,10 @@ namespace WebAPIForSchool
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers(); // we used only controllers for the web servis api
+
+            services.AddScoped<IStudent, MockStudentRepo>(); // For Dependency Injection
+            //we defined Scoped if request come, we inject dependency
+
         }
 
         
@@ -31,6 +36,7 @@ namespace WebAPIForSchool
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
             });
         }
     }

@@ -7,7 +7,6 @@ C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\bin\Debug\netcoreapp3.1\WebA
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\bin\Debug\netcoreapp3.1\WebAPIForSchool.runtimeconfig.dev.json
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\bin\Debug\netcoreapp3.1\WebAPIForSchool.dll
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\bin\Debug\netcoreapp3.1\WebAPIForSchool.pdb
-C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.csprojAssemblyReference.cache
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.AssemblyInfoInputs.cache
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.AssemblyInfo.cs
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.csproj.CoreCompileInputs.cache
@@ -18,3 +17,4 @@ C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\stat
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.dll
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.pdb
 C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.genruntimeconfig.cache
+C:\github\.NetCore-WEBAPI-ForSchool\WebAPIForSchool\obj\Debug\netcoreapp3.1\WebAPIForSchool.csprojAssemblyReference.cache
