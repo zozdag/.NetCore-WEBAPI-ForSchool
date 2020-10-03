@@ -7,11 +7,11 @@ using WebAPIForSchool.Models;
 
 namespace WebAPIForSchool.Data
 {
-    public class SqlCommanderRepo : IStudent
+    public class SqlStudentRepo : IStudent
     {
         private readonly DatabaseContext _context;
 
-        public SqlCommanderRepo(DatabaseContext context)
+        public SqlStudentRepo(DatabaseContext context)
         {
             _context = context;
         }

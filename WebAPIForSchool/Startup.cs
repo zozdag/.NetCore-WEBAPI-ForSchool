@@ -32,7 +32,7 @@ namespace WebAPIForSchool
                 Configuration.GetConnectionString("SchoolConnection")));
 
             //services.AddScoped<IStudent, MockStudentRepo>(); // For Dependency Injection
-            services.AddScoped<IStudent, SqlCommanderRepo>();
+            services.AddScoped<IStudent, SqlStudentRepo>();
             //we defined Scoped if request come, we inject dependency
 
         }
